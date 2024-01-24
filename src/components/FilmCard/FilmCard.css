@@ -1,0 +1,22 @@
+.filmcard {
+	max-width: 500px;
+	max-height: 800px;
+	display: flex;
+	flex-direction: column;
+	justify-content: baseline;
+	border: 3px solid red;
+	margin: 20px 0 20px;
+}
+
+.img-card {
+	width: 100%;
+}
+
+.text-card {
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 40px;
+	color: rgb(0, 255, 136);
+	text-decoration: none;
+	list-style: none;
+	background-color: blue;
+}

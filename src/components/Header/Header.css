@@ -1,0 +1,40 @@
+.header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 20px 0 20px;
+	gap: 10px;
+	background: rgb(47, 51, 46);
+	background: linear-gradient(
+		90deg,
+		rgba(47, 51, 46, 0.8715861344537815) 0%,
+		rgba(9, 221, 123, 1) 0%,
+		rgba(12, 195, 152, 1) 50%,
+		rgba(255, 0, 39, 1) 100%
+	);
+}
+
+.header select {
+	width: 200px;
+	height: 55px;
+}
+
+.header button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 60px;
+	height: 40px;
+	background-color: blue;
+	color: white;
+	border-radius: 15px;
+	border: none;
+	font-size: inherit;
+}
+
+.header form {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+}

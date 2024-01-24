@@ -1,0 +1,34 @@
+.output {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	background-image: url(../../@types/1+1.webp);
+	background: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background: fixed;
+	object-fit: contain;
+	animation: changing 20s infinite;
+}
+
+@keyframes changing {
+	0% {
+		background-image: url(../../@types/1+1.webp);
+	}
+	25% {
+		background-image: url(../../@types/film.jpeg);
+	}
+	75% {
+		background-image: url(../../@types/jumanji.jpg);
+	}
+	100% {
+		background-image: url(../../@types/loganX.jpeg);
+	}
+}
+
+.content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
